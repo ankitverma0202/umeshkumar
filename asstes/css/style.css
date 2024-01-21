@@ -1,0 +1,1133 @@
+:root{
+
+         
+    --background-color: rgb(6, 70, 85);
+    --color1: #fff;
+    --color2: red;
+    --box-shadow1:  26px 26px 51px #042b35, -26px -26px 51px #086175;
+    --background-color2: #042b35;
+    --box-shadow2: 15px 15px 30px #021b21,-15px -15px 30px #063b49; 
+    --background-color3: #086175;
+    --color3: rgb(253, 253, 7);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 90px;
+   background-color: var(--background-color);
+   box-shadow:  26px 26px 51px #042b35,
+                -26px -26px 51px #086175;
+   position: relative;
+   display: flex;
+   
+}
+
+
+
+.logoBox{
+    width: 30%;
+    height: 100%;
+    /* background-color: greenyellow; */
+    
+    float: left;
+    display: flex;
+}
+
+.navBox{
+    width: 40%;
+    height: 100%;
+    /* background-color: rgb(6, 70, 85); */
+    float: left;
+    display: flex;
+}
+.navBox2{
+    width: 30%;
+    height: 100%;
+    /* background-color: rgb(16, 182, 219); */
+    float: left;
+    display: flex;
+}
+.ukLogo{
+    width: 75px;
+    height: 75px;
+    margin: 6px 0px 0px 118px;
+}
+
+.nameFount{
+    font-family: cursive;
+    font-size: 22px;
+    position: relative;
+    top: 25px;
+    font-weight: 900;
+    font-style: italic;
+    left: 6px;
+    color: var(--color1);
+}
+
+    .introPage1{
+        width: 50%;
+        height: 547px;
+        float: left;
+        background-color: var(--background-color);
+        display: flex;
+    }
+    .introPage2{
+        width: 50%;
+        height: 547px;
+        float: left;
+        background-color: var(--background-color);
+        display: flex;
+    }
+
+    .marqueeText{
+        margin-top: 28px;
+    font-size: 23px;
+    font-weight: 900;
+    font-family: math;
+    font-style: italic;
+    color: var(--color1);
+}
+
+.nextPageBtn{
+    width: 154px;
+    height: 49px;
+    background-color: var(--color2);
+    margin: auto;
+    border-radius: 6px;
+    box-shadow: var(--box-shadow1);
+    border: none;
+    font-size: 22px;
+    font-weight: 900;
+}
+.nextPageBtn a{
+    text-decoration: none;
+    color: var(--color1);
+}
+
+.nextPageBtn:hover{
+    box-shadow: 0px 0px 23px 0px rgb(224, 137, 137);
+    background-color: var(--color2);
+    
+}
+.nextPageBtn:hover a{
+    color: var(--color1);
+}
+
+.menuBox{
+    width: 100px;
+    height: 100px;
+    display: none;
+}
+.marqueeBoxBLok{
+    display: none;
+}
+
+.contactBox{
+    width: 130px;
+    height: 300px;
+    background-color: var(--background-color);
+    box-shadow:  26px 26px 51px #042b35,
+    -26px -26px 51px #086175;;
+    margin: auto;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+
+.instaBox{
+    width: 65px;
+    height: 65px;
+    background-color: var(--background-color);
+    box-shadow:  26px 26px 51px #042b35,
+    -26px -26px 51px #086175;
+    margin: 20px;
+    float: left;
+    border-radius: 10px;
+    margin-top: 60px;
+    position: relative;
+    left: 13px;
+    
+}
+.facbookBox{
+    width: 65px;
+    height: 65px;
+    background-color: var(--background-color);
+    box-shadow:  26px 26px 51px #042b35,
+    -26px -26px 51px #086175;
+    margin: 20px;
+    float: left;
+    position: relative;
+    left: 13px;
+    border-radius: 10px;
+
+} 
+.Hello{
+    margin: 123px 0px 0px 103px;
+    font-size: 55px;
+    font-weight: 900;
+    color: var(--color1)
+}
+.Hello span{
+    color: rgb(211, 211, 8);
+    position: absolute;
+   
+}
+.umeshNameFont{
+    position: relative;
+    top: 197px;
+    right: 173px;
+    font-size: 37px;
+    font-weight: 900;
+    color: var(--color1);
+}
+
+.UmeshParegraf{
+    position: absolute;
+    color: var(--color1);
+    margin: 249px 682px 0px 104px;
+    font-size: 17px;
+    font-weight: 400;
+    
+}
+
+
+.umeshNameFont span{
+    color: var(--color2);
+    text-decoration: underline;
+}
+
+.fristimg{
+    margin: 18px 0px 0px 12px;
+    height: 529px;
+}
+
+.whatsappBtn{
+    width: 166px;
+    height: 50px;
+    position: absolute;
+    margin: 404px 0px 0px 157px;
+    background-color: var(--color2);
+   box-shadow: var(--box-shadow1);
+    border-radius: 6px;
+    border: none;
+
+}
+
+.whatsappBtn a{
+    text-decoration: none;
+    color: var(--color1);
+}
+.whatsappBtn:hover a{
+    color: var(--color1);
+}
+.whatsappBtn:hover{
+    box-shadow: 0px 0px 23px 0px rgb(224, 137, 137);
+background-color: var(--color2);
+    color: var(--color1);
+}
+
+.telegramBtn{
+    width: 166px;
+    height: 50px;
+    position: absolute;
+    margin: 404px 0px 0px 391px;
+    background-color: var(--color2);
+    box-shadow: var(--box-shadow1);
+    border-radius: 6px;
+    color: var(--color1);
+    border: none;
+}
+
+.telegramBtn a{
+    text-decoration: none;
+    color: var(--color1);
+}
+.telegramBtn:hover a{
+    color: var(--color1);
+}
+.telegramBtn:hover{
+    box-shadow: 0px 0px 23px 0px rgb(224, 137, 137);
+background-color: var(--color2);
+    color: var(--color1);
+}
+
+.instaImg{
+    width: 92px;
+    height: 92px;
+    margin: -14px 0px 0px -11px;
+}
+
+.facBookImg{
+    width: 92px;
+    height: 71px;
+    margin: -5px 0px 0px -14px;
+}
+
+.skillsBox{
+    width: 100%;
+    height: 900px;
+    background-color: var(--background-color2);
+    float: left;
+    
+    
+}
+.displayImg{
+    display: none;
+}
+
+.technicalheading{
+    margin: 27px 0px 0px 111px;
+    font-size: 35px;
+    font-weight: 900;
+color: var(--color1);
+
+}
+.technicalheading span{
+    color: var(--color2);
+    text-decoration: underline;
+}
+
+.mswordBox{
+    width: 20%;
+    height: 180px;
+    background-color: var(--background-color);
+    box-shadow: var(--box-shadow2);
+    position: relative;
+    left: 160px;
+    top: 40px;
+    border-radius: 10px;
+    float: left;
+    margin: 35px;
+}
+
+.msexcleBox{
+    width: 20%;
+    height: 180px;
+    box-shadow: var(--box-shadow2);
+    background-color: var(--background-color);
+    float: left;
+    position: relative;
+    margin: 35px;
+    left: 160px;
+    top: 40px;
+    border-radius: 10px;
+}
+
+.tallyBox{
+    width: 20%;
+    height: 180px;
+    background-color: var(--background-color);
+    box-shadow: var(--box-shadow2);
+    float: left;
+    position: relative;
+    margin: 35px;
+    left: 160px;
+    top: 40px;
+    border-radius: 10px;
+}
+
+.busyBox{
+    width: 20%;
+    height: 180px;
+    background-color: var(--background-color);
+    box-shadow: var(--box-shadow2);
+    float: left;
+    position: relative;
+    margin: 35px;
+    left: 160px;
+    top: 40px;
+    border-radius: 10px;
+}
+
+.gstBox{
+    width: 20%;
+    height: 180px;
+    background-color: var(--background-color);
+    box-shadow: var(--box-shadow2);
+    float: left;
+    position: relative;
+    margin: 35px;
+    left: 160px;
+    top: 40px;
+    border-radius: 10px;
+}
+.ITRBox{
+    width: 20%;
+    height: 180px;
+    background-color: var(--background-color);
+    box-shadow: var(--box-shadow2);
+    float: left;
+    position: relative;
+    margin: 35px;
+    left: 160px;
+    top: 40px;
+    border-radius: 10px;
+}
+
+.typistBox{
+    width: 35%;
+    height: 200px;
+    background-color: var(--background-color);
+    box-shadow: var(--box-shadow2);
+    float: left;
+    position: relative;
+    margin: 35px;
+    left: 405px;
+    top: 40px;
+    border-radius: 10px;
+}
+.typingImg{
+    width: 473px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.container{
+    display: none;
+}
+
+
+.carousel{
+    display: none;
+}
+
+.skillslist li{
+    font-size: 40px;
+display: none;
+}
+.ulBox{
+    display: none;
+}
+.acodemicBox1{
+    width: 60%;
+    height: 520px;
+    background-color: var(--background-color3);
+    float: left;
+
+}
+
+.imgcartoonBox1{
+    width: 400px;
+    height: 350px;
+    background-color: #02171c;
+margin-top: 65px;
+border-radius: 20px;
+box-shadow: var(--box-shadow2);
+    
+}
+
+.acodemicBox2{
+    width: 40%;
+    height: 520px;
+    background-color: var(--background-color3);
+    float: left;
+   
+}
+
+.cartoonImg{
+    width: 100%;
+    height: 100%;
+position: relative;
+border-radius: 20px;
+}
+
+.acodemicfont{
+    font-size: 30px;
+    font-weight: 900;
+    position: relative;
+    top: 37px;
+    left: 90px;
+   color: var(--color1);
+   text-decoration: underline;
+}
+
+.acodemicfont span{
+    color: var(--color2);
+    text-decoration: underline;
+}
+
+.acodparegraf{
+    font-size: 19px;
+    font-weight: 500;
+    margin: 50px 0px 0px 140px;
+    color: var(--color1);
+  
+}
+
+.acodparegraf span{
+    color: var(--color3);
+    text-decoration: underline;
+}
+
+.workexpeience{
+    font-size: 28px;
+    font-weight: 900;
+    position: relative;
+    top: 25px;
+    left: 90px;
+   color: var(--color1);
+   text-decoration: underline;  
+}
+
+.workexpeience span{
+    color: var(--color2);
+    text-decoration: underline;
+}
+
+.workparegraf{
+    font-size: 19px;
+    font-weight: 500;
+    margin: 35px 133px 0px 140px;
+    color: var(--color1);
+}
+
+.hobbies{
+    font-size: 27px;
+    font-weight: 900;
+    position: relative;
+    top: 20px;
+    left: 90px;
+   color: var(--color1);
+   text-decoration: underline;
+}
+
+.hobbies span{
+    color: var(--color2);
+    text-decoration: underline;
+}
+.hobbiesparegraf{
+    font-size: 19px;
+    font-weight: 500;
+    margin: 30px 133px 0px 140px;
+    color: var(--color1);
+}
+
+.cartoonimgacodmik{
+    display: none;
+}
+
+.parsnolDetails{
+    width: 35%;
+    height: 400px;
+    background-color: var(--background-color);
+    float: left;
+    display: flex;
+}
+
+.mapBox{
+    width: 65%;
+    height: 400px;
+    background-color: var(--background-color);
+    float: left;
+    display: flex;
+}
+
+.parsnolhed{
+    font-size: 30px;
+    font-weight: 900;
+    position: relative;
+    top: 37px;
+    left: 90px;
+   color: var(--color1);
+   text-decoration: underline;
+
+}
+.parsnolhed span{
+    color: var(--color2);
+    text-decoration: underline;
+}
+
+.Details{
+    font-size: 19px;
+    font-weight: 500;
+    margin: 100px 0px 0px -100px;
+    color: var(--color1);
+}
+
+.ifremBox{
+    width: 70%;
+    height: 270px;
+    background-color: var(--background-color2);
+    box-shadow: var(--box-shadow2);
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+
+}
+
+.mapstyle{
+    width: 612px;
+     height: 272px;
+     border-radius: 10px;
+}
+.thanksBox{
+    width: 100%;
+    height: 40px;
+    background-color: #063b49;
+    float: left;
+}
+
+
+.reBox{
+    width: 100%;
+    height: 602px;
+    background-color: var(--background-color);
+    float: left;
+    display: flex;
+}
+.dammyB{
+    width: 22%;
+    height: 100px;
+    background-color: var(--background-color);
+    box-shadow: var(--box-shadow1);
+    margin: 133px -68px 0px 208px;
+    border-radius: 10px;
+}
+
+.resumeparegraf{
+    font-size: 25px;
+    font-weight: 900;
+    margin: 272px -105px 0px -225px;
+    color: var(--color1);
+    font-family: monospace;
+}
+
+.nextPageBtn11{
+      width: 154px;
+    height: 49px;
+    background-color: var(--color2);
+    margin: 338px 0px 0px -170px;
+    border-radius: 10px;
+    border: none;
+    font-size: 22px;
+    font-weight: 900;
+box-shadow: var(--box-shadow1);
+    }
+
+.nextPageBtn11:hover{
+    box-shadow: 0px 0px 23px 0px rgb(224, 137, 137);
+    background-color: var(--color2);
+text-decoration: none
+
+}
+.nextPageBtn11 a{
+   color: var(--color1);
+   text-decoration: none;
+}
+
+.ukLogo2{
+    width: 75px;
+    height: 75px;
+    margin: 8px 0px 0px 29px;
+}
+.nameFount1{
+    font-family: cursive;
+    font-size: 22px;
+    position: relative;
+    top: -20px;
+    font-weight: 900;
+    font-style: italic;
+    left: 6px;
+    color: var(--color1);
+}
+
+
+
+ .resumeBox{
+    width: 400px;
+    height: 500px;
+    background-color: var(--background-color2);
+    box-shadow: var(--box-shadow2);
+    margin: auto;
+    margin-left: 274px;
+    border-radius: 10px;
+    margin-top: 51px;
+}
+
+.resuimg{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.thankperagraf{
+    font-size: 22px;
+    color: var(--color1);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media  screen and (max-width: 480px) {
+    header{
+        width: 100%;
+        height: 90px;
+       /* background-color: var(--background-color); */
+       display: flex;
+    }
+    .logoBox{
+        width: 70%;
+        height: 100%;
+        float: left;
+        display: flex;
+    }
+    .thankperagraf {
+        font-size: 17px;
+        color: var(--color1);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .thanksBox {
+        width: 100%;
+        height: 31px;
+        background-color: #063b49;
+        float: left;
+    }
+   
+    .navBox2{
+        width: 30%;
+        height: 100%;
+        float: left;
+        display: flex;
+        /* display: none; */
+    }
+    .navBox{
+        display: none;
+    }
+
+    
+
+    .ukLogo{
+        width: 75px;
+        height: 75px;
+        margin: 6px 0px 0px 20px;
+    }
+
+    .nextPageBtn{
+        width: 154px;
+        height: 49px;
+        background-color: var(--color2);
+        margin: auto;
+        border-radius: 10px;
+        border: none;
+        font-size: 22px;
+        font-weight: 900;
+        display: none;
+    }
+    .menuBox{
+        width: 61px;
+        height: 61px;
+        display: block;
+        margin: auto;
+        border: none;
+        border-radius: 5px;
+        margin-left: 25px;
+        background-color: var(--background-color);
+    }
+
+    .menuIcon{
+        width: 40px;
+        height: 40px;
+    }
+    .marqueeText{
+        margin-top: 6px;
+    font-size: 23px;
+    font-weight: 900;
+    font-family: math;
+    font-style: italic;
+}
+.contactBox{
+    display: none;
+}
+.introPage1{
+    width: 100%;
+    height: 837px;
+    float: left;
+    background-color: var(--background-color);
+    display: flex;
+}
+
+.Hello {
+    margin: 64px 0px 0px 40px;
+    font-size: 34px;
+    font-weight: 900;
+    color: var(--color1);
+}
+.displayImg{
+    margin: 143px 0px 0px -1px;
+    display: block;
+    position: absolute;
+    height: 694px;
+}
+
+.umeshNameFont {
+    position: relative;
+    top: 114px;
+    right: 142px;
+    font-size: 28px;
+    font-weight: 900;
+    color: var(--color1);
+    margin-left: 35px;
+
+}
+.fristimg{
+    display: none;
+}
+
+.UmeshParegraf {
+    position: absolute;
+    color: var(--color1);
+    margin: 159px 30px 0px 38px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.whatsappBtn {
+    width: 123px;
+    height: 50px;
+    position: absolute;
+    margin: 709px 0px 0px 40px;
+    background-color: var(--color2);
+    box-shadow: var(--box-shadow1);
+    border-radius: 6px;
+    border: none;
+}
+
+.telegramBtn {
+    width: 123px;
+    height: 50px;
+    position: absolute;
+    margin: 709px 0px 0px 224px;
+    background-color: var(--color2);
+    box-shadow: var(--box-shadow1);
+    border-radius: 6px;
+    border: none;
+}
+
+
+.introPage2{
+display: none;    
+}
+
+.technicalheading {
+    margin: 32px 0px 0px 72px;
+    font-size: 32px;
+    font-weight: 900;
+    color: var(--color1);
+}
+
+.ulBox{
+    display: block;
+    background-color: var(--background-color2);
+    width: 290px;
+    height: 120px;
+background: #042b35;
+box-shadow:  25px 25px 41px #02171c,
+             -25px -25px 41px #063f4e;
+    padding: 20px;
+position: relative;
+top: 40px;
+left: 50px;
+border-radius: 10px;
+}
+
+.skillslist li{
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    color: var(--color1);
+    /* top: 60px; */
+    left: -20px;
+
+
+
+}
+
+.container{
+    display: block;
+    
+}
+
+.carousel{
+    display: block;
+}
+
+.icon1{
+    position: relative;
+    width: 33px;
+    top: 46px;
+}
+
+.icon2{
+    position: relative;
+    width: 36px;
+    top: 46px; 
+    left: 10px;
+}
+
+.Boxsize{
+    width: 80%;
+    height: 180px;
+    border-radius: 10px;
+    margin-top: 90px;
+    position: relative;
+    left: 41px; 
+    box-shadow: var(--box-shadow2);
+}
+
+.skillsBox {
+    width: 100%;
+    height: 520px;
+    background-color: var(--background-color2);
+    float: left;
+}
+
+.mswordBox{
+ display: none;
+}
+
+.msexcleBox{
+ 
+    display: none;
+
+}
+
+.tallyBox{
+
+    display: none;
+  
+}
+
+.busyBox{
+    display: none;
+   
+}
+
+.gstBox{
+ display: none;
+}
+.ITRBox{
+  display: none;
+}
+
+.typistBox{
+ 
+    display: none;
+}
+
+.acodemicBox1 {
+    width: 100%;
+    height: 472px;
+    background-color: var(--background-color3);
+    float: left;
+}
+
+.acodemicfont {
+    font-size: 22px;
+    font-weight: 900;
+    position: relative;
+    top: 28px;
+    left: 30px;
+    color: var(--color1);
+    text-decoration: underline;
+}
+
+.acodparegraf {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 46px 0px 0px 73px;
+    color: var(--color1);
+}
+.workexpeience {
+    font-size: 22px;
+    font-weight: 900;
+    position: relative;
+    top: 28px;
+    left: 30px;
+    color: var(--color1);
+    text-decoration: underline;
+}
+
+.workparegraf {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 45px 60px 0px 73px;
+    color: var(--color1);
+}
+
+
+
+.acodemicBox2 {
+    width: 40%;
+    height: 520px;
+    background-color: var(--background-color3);
+    float: left;
+    display: none;
+}
+
+
+.hobbies {
+    font-size: 22px;
+    font-weight: 900;
+    position: relative;
+    top: 28px;
+    left: 30px;
+    color: var(--color1);
+    text-decoration: underline;;
+}
+
+.hobbiesparegraf {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 46px 0px 0px 73px;
+    color: var(--color1);
+}
+
+.parsnolDetails{
+    width: 100%;
+    height: 255px;
+    background-color: var(--background-color);
+    float: left;
+    display: flex;
+}
+
+.parsnolhed{
+    font-size: 22px;
+    font-weight: 900;
+    position: relative;
+    top: 32px;
+    left: 30px;
+    color: var(--color1);
+    text-decoration: underline;
+}
+.parsnolhed span{
+    color: var(--color2);
+    text-decoration: underline;
+}
+
+.Details{
+    font-size: 15px;
+    font-weight: 500;
+    margin: 100px 0px 0px -100px;
+    color: var(--color1);
+
+}
+
+.mapBox{
+    width: 100%;
+    height: 205px;
+    background-color: var(--background-color);
+    float: left;
+    display: flex;
+
+}
+
+.ifremBox{
+    width: 77%;
+    height: 157px;
+    background-color: var(--background-color2);
+    box-shadow: var(--box-shadow2);
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    margin-top: 17px;
+    margin-right: 44px;
+}
+
+.mapstyle {
+    width: 612px;
+    height: 156px;
+    border-radius: 10px;
+}
+
+
+.reBox{
+    width: 100%;
+    height: 867px;
+    background-color: var(--background-color);
+    float: left;
+    display: flex;
+}
+.dammyB{
+    width: 75%;
+    height: 100px;
+    background-color: var(--background-color);
+    box-shadow: var(--box-shadow1);
+    margin: 47px -56px 0px 48px;
+    border-radius: 10px;
+}
+
+
+.resumeparegraf{
+    font-size: 22px;
+    font-weight: 900;
+    margin: 185px -86px 0px -241px;
+    color: var(--color1);
+    font-family: monospace;
+}
+
+
+
+.nextPageBtn11{
+    width: 154px;
+    height: 49px;
+    background-color: var(--color2);
+    border-radius: 10px;
+    position: relative;
+    border: none;
+    top: 439px;
+    left: 29px;
+    font-size: 22px;
+    font-weight: 900;
+    box-shadow: var(--box-shadow1);
+}
+
+
+
+.nextPageBtn11:hover{
+    box-shadow: 0px 0px 23px 0px rgb(224, 137, 137);
+    background-color: var(--color2);
+text-decoration: none
+
+}
+.nextPageBtn11 a{
+   color: var(--color1);
+   text-decoration: none;
+}
+
+.ukLogo2{
+    width: 75px;
+    height: 75px;
+    margin: 8px 0px 0px 29px;
+}
+.nameFount1{
+    font-family: cursive;
+    font-size: 22px;
+    position: relative;
+    top: -20px;
+    font-weight: 900;
+    font-style: italic;
+    left: 6px;
+    color: var(--color1);
+}
+
+
+
+ .resumeBox{
+    width: 339px;
+    height: 490px;
+    background-color: var(--background-color2);
+    box-shadow: var(--box-shadow2);
+    margin: 244px 0px 0px 0px;
+    margin-left: -217px;
+ }
+
+.resuimg{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+}
